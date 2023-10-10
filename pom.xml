@@ -10,7 +10,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<!-- <module>httpclientclient</module> -->
+		<module>webclientclient</module>
 		<module>resttemplateclient</module>
 		<module>restserver</module>
 	</modules>
