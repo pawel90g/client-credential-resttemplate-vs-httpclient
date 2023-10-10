@@ -1,4 +1,4 @@
-package dev.garbacik.resttemplateclient.model;
+package dev.garbacik.common.model;
 
 import java.util.UUID;
 

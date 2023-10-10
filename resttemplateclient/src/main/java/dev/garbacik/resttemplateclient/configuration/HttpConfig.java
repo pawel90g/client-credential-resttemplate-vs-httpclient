@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
+import dev.garbacik.common.settings.ClientSettings;
 import dev.garbacik.resttemplateclient.security.RestTemplateOAuthInterceptor;
-import dev.garbacik.resttemplateclient.settings.ClientSettings;
 
 @Configuration
 @EnableConfigurationProperties(ClientSettings.class)

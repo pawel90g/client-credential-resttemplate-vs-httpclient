@@ -1,4 +1,4 @@
-package dev.garbacik.resttemplateclient.settings;
+package dev.garbacik.common.settings;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.util.LinkedMultiValueMap;

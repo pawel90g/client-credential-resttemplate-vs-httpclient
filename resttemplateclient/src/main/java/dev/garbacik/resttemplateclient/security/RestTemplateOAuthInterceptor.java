@@ -3,7 +3,6 @@ package dev.garbacik.resttemplateclient.security;
 import java.io.IOException;
 import java.time.Instant;
 
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -16,8 +15,8 @@ import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
-import dev.garbacik.resttemplateclient.model.OAuthResponse;
-import dev.garbacik.resttemplateclient.settings.ClientSettings;
+import dev.garbacik.common.model.OAuthResponse;
+import dev.garbacik.common.settings.ClientSettings;
 
 public class RestTemplateOAuthInterceptor implements ClientHttpRequestInterceptor {
 

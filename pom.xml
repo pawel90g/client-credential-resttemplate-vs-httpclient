@@ -6,10 +6,11 @@
 
 	<groupId>dev.garbacik</groupId>
 	<artifactId>clientcredentialsflow</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
 	<modules>
+		<module>common</module>
 		<module>webclientclient</module>
 		<module>resttemplateclient</module>
 		<module>restserver</module>
