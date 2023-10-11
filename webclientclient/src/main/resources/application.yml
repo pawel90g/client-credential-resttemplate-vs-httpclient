@@ -2,3 +2,9 @@ server:
     port: 8020
 host:
     url: 'https://glowing-couscous-96jx595qpq29v6v-8080.app.github.dev/api'
+api:
+    client:
+        clientId: '0c9b2ce3-6772-4d27-9681-2645d039cef5'
+        clientSecret: 'Bir8Q~Y.ZHHoZ13infSSTAMyL3azxkyzf4rUKb3P'
+        scope: 'https://pawel90g.onmicrosoft.com/0c9b2ce3-6772-4d27-9681-2645d039cef5/.default'
+        tokenRequestUrl: 'https://login.microsoftonline.com/pawel90g.onmicrosoft.com'

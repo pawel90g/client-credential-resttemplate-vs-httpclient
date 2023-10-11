@@ -26,9 +26,8 @@ public class HttpConfig {
         RestTemplate restTemplate = new RestTemplateBuilder()
                 .rootUri(this.hostUrl)
                 .interceptors(new RestTemplateOAuthInterceptor(
-                    this.oAuthAuthenticator(),
-                    this.clientSettings
-                ))
+                        this.oAuthAuthenticator(),
+                        this.clientSettings))
                 .build();
 
         return restTemplate;
